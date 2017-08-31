@@ -40,7 +40,8 @@ within the clj `locking` libraries
 
 * Atoms/Refs may still be used to create transaction states, but the
   resulting code will resemble typical imperative code blocks rather
-  than functional ones.
+  than functional ones.  (This is final approach used within this
+  project.)
 
 * Erlang-style Actor systems may be used through several available
   packages, the most notable of which is the Akka wrapper
